@@ -36,7 +36,12 @@ const App = () => {
                         <AllocationForm/>
                     </div>
                 </div>
+        <h3 className= 'mt -3'> allocation</h3>
+        <div className='row mt-3'>
+            <div className='col-sm'>
+                AllocationForm/>
             </div>
+          </div>
         </AppProvider>
     );
 };
